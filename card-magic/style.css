@@ -1,0 +1,91 @@
+.card {
+    width: 250px;
+    height: 400px;
+    border: 2px solid rgb(100, 55, 55);
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    position: relative;
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
+    border-width: 5px;
+    background-size: 100% 100%;
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(49% 81% at 79% 6%, #EFEAB845 0%, #073AFF00 100%),radial-gradient(113% 91% at 61% -87%, #472D14FF 92%, #FF000000 99%),radial-gradient(142% 91% at 110% -58%, #53280CFF 1%, #53280CFF 15%, #B36E46FF 40%, #382314FF 93%, #FF000000 99%),radial-gradient(142% 91% at 45% 34%, #53280CFF 1%, #53280CFF 35%, #FF9B56FF 41%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #49220CFF 16%, #53280CFF 17%, #53280CFF 29%, #C46E41FF 44%, #53280CFF 66%, #53280CFF 80%, #53280CFF 82%, #FF0000FF 100%);
+    
+  }
+  
+  .card-image {
+    width: 70%;
+    height: 50%;   
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-left: 35px;
+    margin-right: 40px;
+    border: solid;
+    border-bottom: 0;
+    border-color: rgb(100, 55, 55);
+    
+  }
+  
+.card-content{ 
+   background-color: #6d4242;
+   font-size: small;
+   border-style: solid;
+   border-right: 0px;
+   border-left: 0px;
+   border-color: #632424;
+   border-width: 2px;
+   background-size: 100% 100%;
+background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+background-image: radial-gradient(49% 81% at 45% 47%, #68653345 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #472D14FF 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #53280CFF 1%, #53280CFF 36%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #53280CFF 1%, #53280CFF 24%, #CFA07DFF 40%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #49220CFF 16%, #53280CFF 17%, #53280CFF 29%, #53280CFF 44%, #53280CFF 66%, #53280CFF 80%, #53280CFF 82%, #FF0000FF 100%);%, #68653345 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #472D14FF 1%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #53280CFF 1%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #53280CFF 1%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #53280CFF 16%, #FF0000FF 100%);
+}
+.card-type{
+    
+    font-size: 8px;
+    display: block;
+    
+}
+
+.card-title{
+    border: solid;
+    border-color: rgb(168, 96, 47);
+    border-radius: 25px;
+    background-size: 100% 100%;
+    background-position: 0px 0px,0px 0px,0px 0px,0px 0px,0px 0px;
+    background-image: radial-gradient(49% 81% at 45% 47%, #EFEAB845 0%, #073AFF00 100%),radial-gradient(113% 91% at 17% -2%, #472D14FF 92%, #FF000000 99%),radial-gradient(142% 91% at 83% 7%, #53280CFF 1%, #382314FF 93%, #FF000000 99%),radial-gradient(142% 91% at -6% 74%, #53280CFF 1%, #53280CFF 24%, #FF9B56FF 40%, #FF000000 99%),radial-gradient(142% 91% at 111% 84%, #49220CFF 16%, #53280CFF 17%, #53280CFF 29%, #C46E41FF 44%, #53280CFF 66%, #53280CFF 80%, #53280CFF 82%, #FF0000FF 100%);
+    font-style: italic;
+    color: rgb(184, 112, 62);
+    text-shadow: 1px 1px red;
+    display: flex;
+    border-width: 2px;
+    
+}
+
+.card-mana-cost{
+    border: solid;
+    border-radius: 25px;
+    border-color: rgb(168, 96, 47);
+    border-width: 2px;
+    justify-items: center;
+    
+}
+
+#deck{
+  display: flex;
+  flex-wrap: wrap;
+  margin:10px;
+  
+  
+
+  
+
+
+ 
+}
+
+  /* ... outros estilos */
